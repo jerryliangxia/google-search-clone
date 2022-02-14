@@ -8,6 +8,9 @@ export const Router = () => {
       <Routes>
         <Route path="/" exact element={<Navigate replace to="/search" />} />
         <Route path="/search" exact element={<Results />} />
+        <Route path="/images" exact element={<Results />} />
+        <Route path="/news" exact element={<Results />} />
+        <Route path="/videos" exact element={<Results />} />
       </Routes>
     </div>
   );
