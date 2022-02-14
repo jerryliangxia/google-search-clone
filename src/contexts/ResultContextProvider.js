@@ -29,7 +29,7 @@ export const ResultContextProvider = ({ children }) => {
     } else if (type.includes("/images")) {
       setResults(data.image_results);
     } else {
-      setResults(data);
+      setResults(data.results);
     }
 
     setIsLoading(false);
