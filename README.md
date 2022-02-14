@@ -1,3 +1,7 @@
+# Google Search Clone made with Tailwind CSS and Rapid API
+
+The site is deployed [here](https://google-searcher-clone-project.netlify.app/search).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
