@@ -1,7 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import App from './App';
-import './global.css';
+import App from "./App";
+import { ResultContextProvider } from "./contexts/ResultContextProvider";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import "./global.css";
+
+ReactDOM.render(
+  <ResultContextProvider>
+    <Router>
+      <App />
+    </Router>
+  </ResultContextProvider>,
+  document.getElementById("root")
+);
